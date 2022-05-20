@@ -1,10 +1,15 @@
 package com.revature;
 
+import java.util.Optional;
 import java.util.Scanner;
+
+import com.revature.models.User;
+import com.revature.repositories.UserDAO;
 
 public class Driver {
 
 	public static void main(String[] args) {
+		UserDAO userDao = new UserDAO();
 		System.out.println("******************Welcome to LRS Java Application******************");
 		System.out.println(" \t\t\t\t 1. Login ");
 		System.out.println(" \t\t\t\t 2. Register ");
@@ -21,7 +26,17 @@ public class Driver {
 			username = input.next();
 			System.out.print("Enter password :");
 			password = input.next();
-			
+			User user = userDao.getByUsername(username).get();
+			if (user != null) {
+				if (password.equals(user.getPassword())) {
+					System.out.println("Login Successfull!!!!!");
+				} else {
+					System.out.println("Please check the password entered!!!");
+				}
+			} else {
+				System.out.println("Please check the username entered!!!");
+			}
+
 			break;
 		case 2:
 			break;

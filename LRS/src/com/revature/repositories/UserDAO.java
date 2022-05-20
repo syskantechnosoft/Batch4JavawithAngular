@@ -1,16 +1,19 @@
 package com.revature.repositories;
 
 import com.revature.models.User;
+import com.revature.services.UserService;
 
 import java.util.Optional;
 
 public class UserDAO {
+	
+	UserService userService = new UserService();
 
     /**
      * Should retrieve a User from the DB with the corresponding username or an empty optional if there is no match.
      */
     public Optional<User> getByUsername(String username) {
-        return Optional.empty();
+        return userService.getByUsername(username);
     }
 
     /**
