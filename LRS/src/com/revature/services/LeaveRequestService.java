@@ -19,8 +19,8 @@ import java.util.List;
  *     <li>Create LeaveRequest</li>
  *     <li>Update LeaveRequest</li>
  *     <li>Get LeaveRequests by ID</li>
- *     <li>Get LeaveRequests by Author</li>
- *     <li>Get LeaveRequests by Resolver</li>
+ *     <li>Get LeaveRequests by Requestor</li>
+ *     <li>Get LeaveRequests by Approver</li>
  *     <li>Get All LeaveRequests</li>
  * </ul>
  */

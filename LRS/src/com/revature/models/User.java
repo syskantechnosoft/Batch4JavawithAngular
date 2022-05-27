@@ -15,6 +15,12 @@ package com.revature.models;
  *
  */
 public class User extends AbstractUser {
+	
+	private String firstName;
+	private String lastName;
+	private String email;
+	private long phone;
+	private String address;
 
     public User() {
         super();
@@ -27,4 +33,22 @@ public class User extends AbstractUser {
     public User(int id, String username, String password, Role role) {
         super(id, username, password, role);
     }
+
+	public User(String firstName, String lastName, String email, long phone, String address) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.phone = phone;
+		this.address = address;
+	}
+    
+	public User(int id, String username, String password, Role role,String firstName, String lastName, String email, long phone, String address) {
+		super(id, username, password, role);
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.phone = phone;
+		this.address = address;
+	}
 }
