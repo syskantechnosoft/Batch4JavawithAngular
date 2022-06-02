@@ -16,7 +16,7 @@ public class JDBC_CRUD {
 
 		Scanner scan = new Scanner(System.in);
 
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/my_schema", "root", "1234");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/my_schema", "root", "root");
 
 		String insertQuery = "insert into employee (first_name,last_name,email,phone) values (?,?,?,?)";
 		String updateQuery = "update employee set first_name=?, last_name=?, email=?,phone=? where id=?";
