@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/revature/JDBCDemo.java" kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/guava-25.1-android.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/guice-4.2.2-no_aop.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/jansi-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/jcl-over-slf4j-1.7.32.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-artifact-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-builder-support-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-compat-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-core-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-embedder-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-model-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-model-builder-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-plugin-api-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-repository-metadata-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-api-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-connector-basic-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-impl-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-provider-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-spi-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-transport-wagon-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-resolver-util-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-settings-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-settings-builder-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-shared-utils-3.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/maven-slf4j-provider-3.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/org.eclipse.sisu.inject-0.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/org.eclipse.sisu.plexus-0.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/plexus-cipher-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/plexus-component-annotations-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/plexus-interpolation-1.26.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/plexus-sec-dispatcher-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/plexus-utils-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/slf4j-api-1.7.32.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/wagon-file-3.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/wagon-http-3.5.1-shaded.jar"/>
+	<classpathentry kind="lib" path="C:/apache-maven-3.8.5/lib/wagon-provider-api-3.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar"/>
+	<classpathentry kind="var" path="JRE_LIB"/>
+	<classpathentry kind="lib" path="D:/Program Files/Java/jdk-18/lib/jrt-fs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
