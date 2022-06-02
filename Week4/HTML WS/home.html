@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function calculate() {
+            document.getElementById("result").innerText = parseInt(document.getElementById("input1").value) + parseInt(document.getElementById("input2").value);
+        }
+    </script>
+    <form method="GET">
+        <label>input1:</label>
+        <input type="number" name="input1" id="input1" placeholder="Enter a number" />
+        <label>input2:</label>
+        <input type="number" name="input2" id="input2" placeholder="Enter a number" />
+        <input type="reset" value="Clear" />
+        <input type="button" value="CalcualteSum" onclick="calculate()" />
+        <div id="result"> </div>
+    </form>
+</body>
+
+</html>
