@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1> Welcome to Dynamic Web</h1>
+    <script>
+        //Internal JavaScript  -- Single Line Javascript command
+        //Javascript can be disabled using browser settings
+        console.log(Date());
+        /* document.write(Date()); */
+        // <h1> Test </h1> - html tags are not allowed inside script tag
+        //only javascript codes are allowed.
+
+        //prompt("Enter a number :");  // Js function to get input from user
+
+        //alert("You entered a number"); // js function to display any message on page load
+
+
+        x = 25; y = 75;
+        var x, y;  // hoisting in Javascript - In js variable declartions will be moved to top automatically
+
+
+        var name = 'sample';  //type string
+        //data types in Javascript number, string, boolean
+
+        var value = '25'; //type string 
+
+
+        value = true;    // dynamically typed or loosely typed language
+
+        var bigvalue = 2487686897987987897896986988678989789797;
+
+        document.write("big value is : " + bigvalue);
+
+        document.write("x value is :" + x + " y value is " + y);
+
+        document.write(" \n name is :" + name);
+
+
+        function func() {
+            if (true) {
+                var fruit1 = 'apple';        //exist in function scope
+                const fruit2 = 'banana';     //exist in block scope
+                let fruit3 = 'strawberry';   //exist in block scope
+
+            }
+            console.log(fruit1);
+           // console.log(fruit2);    // results error - due to it exist in block scope
+          //  console.log(fruit3);    // results error - due to it exist in block scope
+        }
+
+        func();   //calling the function func
+    </script>
+
+
+
+    <button type="button" onclick="document.getElementById('test').innerHTML= Date()">Click to Print Date</button>
+
+    <p id="test"></p> <!-- This is an empty html paragraph tag with id as test -->
+
+</body>
+
+</html>
