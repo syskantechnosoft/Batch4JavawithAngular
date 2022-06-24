@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="student1" class="com.revature.model.Student">
+		<property name="id" value="110"></property>
+		<property name="firstName" value="abc"></property>
+		<property name="lastName" value="xyz"></property>
+	</bean>
+
+	<bean id="student2" class="com.revature.model.Student">
+		<property name="id" value="111"></property>
+		<property name="firstName" value="efg"></property>
+		<property name="lastName" value="mno"></property>
+	</bean>
+
+</beans>  
