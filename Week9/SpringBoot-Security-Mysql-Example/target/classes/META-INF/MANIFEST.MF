@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Siva
+Build-Jdk: 17.0.1
+Implementation-Title: SpringBoot-Security-Mysql-Example
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.onlinetutorialspoint
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBoot-Security-Mysql-Example
+Created-By: Maven Integration for Eclipse
+
